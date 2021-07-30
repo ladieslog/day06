@@ -6,7 +6,7 @@ public class Quiz02_t2 {
 		for(a=1;a<=30;a++) {
 			b*=2;
 		}
-		System.out.println("30일째 예금액 : "+ b);
+		System.out.println("30일째 예금액 : "+ b/2);
 		System.out.println("\n");
 		
 		for(c=1;c<=1000;c++) {
