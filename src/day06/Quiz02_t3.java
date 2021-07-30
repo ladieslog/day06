@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Quiz02_t3 {
 	public static void main(String[] args) {
-		int a,b=0,c=0;
+		int a,b=2,c=0;
 		int d,e,f,g,h=100,l=0;
 		int i,j,k;
 		
-		for(a=1;c<1000;a++) {
+		for(a=1;c<100000;a++) {
 			c+=(b*20);
 			if(a%10==0) {
-				b++;
+				b*=2;
 			}
 		}
 		
